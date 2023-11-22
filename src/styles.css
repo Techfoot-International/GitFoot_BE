@@ -1,0 +1,149 @@
+/* Navbar styles */
+nav {
+  background-color: #37b9ec;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+nav li:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  text-decoration: none; /* Remove underline style */
+  display: inline-block; /* Make buttons inline */
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Placeholder component styles */
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* Add Domain Object */
+#add-domain-object {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* View Domain Objects */
+#view-domain-objects {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Check Details */
+#check-details {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styles for the AddUsecase component */
+div {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for form elements */
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="file"] {
+  display: none; /* Hide the file input */
+}
+
+/* Style for the "Picture" input container */
+label[for="picture"] {
+  display: block;
+  margin-top: 10px;
+  background: #007BFF;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+label[for="picture"]:hover {
+  background: #0056b3;
+}
+
+/* Style for the button */
+button {
+  display: block;
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Style for the list of use cases */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #333;
+}

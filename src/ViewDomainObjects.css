@@ -1,0 +1,73 @@
+/* ViewDomainObjects.css */
+.view-domain-objects {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+
+  /* Add this CSS to your stylesheet */
+
+.new-button {
+  /* display: inline-block; */
+  padding: 11px 20px;
+  margin: 10px 1px;
+  background-color: #0e61b4; /* Change the background color to your preference */
+  color: #fff; /* Text color */
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: left;
+}
+
+.new-button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+
+  
+  /* Style the Go Back button */
+  .go-back-button {
+    display: inline-block;
+    padding: 10px 70px;
+    margin: 1rem;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+  
+  .go-back-button:hover {
+    background-color: #0056b3; /* Change the hover background color as needed */
+  }
+  

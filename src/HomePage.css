@@ -1,0 +1,87 @@
+/* HomePage.css */
+
+/* Style the container for the buttons */
+.homepage {
+  text-align: center;
+  margin-top: 5px;
+}
+
+h1 {
+  color: #007bff;
+  list-style-type: none;
+  margin: 50;
+  padding: 20px 10px;
+  text-align: left;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.domain-objects-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.domain-objects-table th,
+.domain-objects-table td {
+  border: 1px solid #ddd; /* Add borders to table cells */
+  padding: 8px;
+  text-align: left;
+}
+
+.domain-objects-table th {
+  background-color: #f2f2f2; /* Add background color to header cells */
+}
+
+/* Style the buttons */
+.custom-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #0e61b4; /* Change the border color as needed */
+  border-radius: 5px;
+  background-color: #0e61b4; /* Change the background color as needed */
+  color: #fff; /* Change the text color as needed */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #0e61b4; /* Change the hover background color as needed */
+  border-color: #0e61b4; /* Change the hover border color as needed */
+}
+
+/* Style individual buttons */
+.new-button {
+  background-color: #0e61b4; /* Change the background color as needed */
+  border-color: #0e61b4; /* Change the border color as needed */
+}
+
+.new-button:hover {
+  background-color: #0e61b4; /* Change the hover background color as needed */
+  border-color: #0e61b4; /* Change the hover border color as needed */
+}
+
+.view-button {
+  background-color: #0e61b4; /* Change the background color as needed */
+  border-color: #0e61b4; /* Change the border color as needed */
+  float: left;
+}
+
+.view-button:hover {
+  background-color: #0e61b4; /* Change the hover background color as needed */
+  border-color: #0e61b4; /* Change the hover border color as needed */
+}
+
+.details-button {
+  background-color: #0e61b4; /* Change the background color as needed */
+  border-color: #0e61b4; /* Change the border color as needed */
+  float: left;
+}
+
+.details-button:hover {
+  background-color: #0e61b4; /* Change the hover background color as needed */
+  border-color: #0e61b4; /* Change the hover border color as needed */
+}

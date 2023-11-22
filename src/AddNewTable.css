@@ -1,0 +1,47 @@
+/* Container style */
+div {
+  text-align: left;
+}
+
+/* Heading style */
+h2 {
+  font-size: 24px;
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* Label style */
+label {
+  display: block;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* Input field style */
+input[type="text"] {
+  width: 50%;
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 5px;
+}
+/* Error message style */
+.error {
+  color: red;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Button style */
+button {
+  background-color: #0e61b4;
+  color: white;
+  border: none;
+  padding: 1px 2px;
+  margin: 10px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100px;
+}

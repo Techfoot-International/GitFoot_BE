@@ -1,0 +1,137 @@
+/* Layout.css */
+
+.layout {
+    display: grid;
+    grid-template-columns: 200px 1fr; /* Sidebar and content */
+    grid-template-rows: auto 1fr auto; /* Header, content, and footer */
+    min-height: 100vh;
+  }
+  
+  .header {
+    grid-column: 1 / -1; /* Span across all columns */
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Add a class for the logo */
+  .logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #007bff;
+    text-transform: uppercase;
+  }
+  
+  /* Style the menu icon */
+  .menu-icon {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 16px;
+  }
+  
+  /* Add styles for the header icons */
+  .header-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .notification-icon,
+  .help-icon,
+  .login-icon {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+
+  .sidebar {
+    background-color: #333;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  /* Style the sidebar links */
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    display: block;
+    transition: color 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #007bff;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  
+  
+  /* Style the open sidebar */
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  /* Apply transitions to make the sidebar animation smooth */
+  .sidebar {
+    transition: transform 0.3s;
+    transform: translateX(-100%);
+  }
+  
+  /* Styles for the dropdown menu */
+  .sidebar ul ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333; /* Dropdown background color */
+    position: absolute;
+    nav-down: 100%; /* Position to the right of the parent li */
+  }
+  
+  .sidebar li:hover ul {
+    display: block;
+    position: absolute;
+  }
+  
+  .sidebar li ul li {
+    margin: 0;
+  }
+  
+  .sidebar li ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    display: block;
+    transition: color 0.3s;
+  }
+  
+  .sidebar li ul a:hover {
+    color: #007bff;
+  }
+  
+  .footer {
+    grid-column: 1 / -1; /* Span across all columns */
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }

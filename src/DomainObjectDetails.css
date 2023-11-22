@@ -1,0 +1,65 @@
+/* DomainObjectDetails.css */
+
+/* Container styles */
+.domain-details-container {
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Name styles */
+  h3 {
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* List styles */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the Go Back button */
+  .go-back-button {
+    display: inline-block;
+    padding: 10px 36px;
+    margin: 10px 1px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #0e61b4;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+  .go-back-button:hover {
+    background-color: #0e61b4; /* Change the hover background color as needed */
+  }
+  
+  
+  /* Styling for different sections (Properties, Methods, Inputs, Outputs) */
+  .section-heading {
+    font-size: 20px;
+    color: #007bff;
+    margin-top: 20px;
+  }
+  
+  /* Styling for nested lists */
+  .nested-ul {
+    margin-left: 20px;
+  }
+  
